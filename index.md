@@ -13,6 +13,15 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
 
 ---
 
+## 🛠️ Skills
+
+**Languages:** Python, C/C++, Java, SQL  
+**Frameworks:** ROS, Spring Boot, PyTorch/TensorFlow  
+**Tools:** Git/GitHub, Gazebo, Linux, LaTeX  
+**Domains:** Robotics, ML, Full-Stack Web, Databases
+
+---
+
 ## 🧩 Featured Projects
 
 ### 1) Robot Navigation in Crowded Environments
@@ -36,14 +45,6 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
 - **What**: Credit/points, ratings, search, user profiles
 - **Links**: [Repo](https://github.com/YOUR_GITHUB/socialbookstore)
 
----
-
-## 🛠️ Skills
-
-**Languages:** Python, C/C++, Java, SQL  
-**Frameworks:** ROS, Spring Boot, PyTorch/TensorFlow  
-**Tools:** Git/GitHub, Gazebo, Linux, LaTeX  
-**Domains:** Robotics, ML, Full-Stack Web, Databases
 
 ---
 
