@@ -4,8 +4,14 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
 url: "https://KonstantinosC7.github.io"
 baseurl: ""  # leave empty for user/organization pages
+
+include:
+  - assets/css
+  - assets/img
+
 social_links:
   github: https://github.com/KonstantinosC7
   linkedin: https://www.linkedin.com/in/konstantinos-christopoulos
