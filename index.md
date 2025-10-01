@@ -11,7 +11,7 @@ Building intelligent systems—**robotics, ML, computer vision, and full-stack a
 - 💻 Also: Spring Boot + MySQL apps, computer vision (YOLO), data/ML pipelines
 - 🎯 Goal: Bridge **research** & **industry** with practical, scalable solutions
 
-[Download CV](assets/CV_Konstantinos_Christopoulos.pdf) · [GitHub](https://github.com/YOUR_GITHUB) · [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN) · [Email](mailto:YOUR_EMAIL@example.com)
+[Download CV](assets/CV_Konstantinos_Christopoulos.pdf) · [GitHub](https://github.com/KonstantinosC7) · [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)   · [Email](mailto:christopoulosk218@gmail.com)
 
 ---
 
