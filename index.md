@@ -25,9 +25,9 @@ title: "Home"
   <p class="tagline">Computer Engineering & Informatics Graduate — building intelligent systems in <strong>Robotics</strong>, <strong>ML/CV</strong>, and <strong>Full-Stack</strong>.</p>
   <div class="cta">
     <a class="btn primary" href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download CV</a>
-    <a class="btn" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
-    <a class="btn" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
-    <a class="btn ghost" href="mailto:YOUR_EMAIL@example.com">Email me</a>
+    <a class="btn" href="(https://github.com/KonstantinosC7)" target="_blank">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">LinkedIn</a>
+    <a class="btn ghost" href="mailto:christopoulosk218@gmail.com">Email me</a>
   </div>
 
   <div class="badges">
@@ -98,9 +98,9 @@ title: "Home"
   <h2>Skills</h2>
   <ul class="skills">
     <li><strong>Languages:</strong> Python, C/C++, Java, SQL</li>
-    <li><strong>Frameworks:</strong> ROS, Spring Boot, OpenCV, PyTorch/TensorFlow</li>
-    <li><strong>Tools:</strong> Git/GitHub, Docker, Gazebo, Linux/Ubuntu, LaTeX</li>
-    <li><strong>Domains:</strong> Robotics, ML/CV, Full-Stack Web, Databases</li>
+    <li><strong>Frameworks:</strong> ROS, Spring Boot, PyTorch/TensorFlow</li>
+    <li><strong>Tools:</strong> Git/GitHub,Gazebo, Linux/Ubuntu, LaTeX</li>
+    <li><strong>Domains:</strong> Robotics, ML, Full-Stack Web, Databases</li>
   </ul>
 </section>
 
