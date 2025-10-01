@@ -3,6 +3,8 @@ layout: default
 title: "Konstantinos Christopoulos"
 ---
 
+![Profile photo](My-photo.jpg){: style="width:200px; border-radius:50%; display:block; margin:auto;" }
+
 # 👋 Hi, I’m Konstantinos Christopoulos
 **Computer Engineering & Informatics Graduate**  
 Building intelligent systems—**robotics, ML, and full-stack apps**.
