@@ -33,9 +33,7 @@ title: "Home"
   <div class="badges">
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
     <img alt="ROS" src="https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white">
-    <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white">
     <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white">
-    <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
   </div>
 </header>
