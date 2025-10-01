@@ -3,8 +3,6 @@ layout: default
 title: "Konstantinos Christopoulos"
 ---
 
-## ABOUT ME
-
 # 👋 Hi, I’m Konstantinos Christopoulos
 **Computer Engineering & Informatics Graduate**  
 Building intelligent systems—**robotics, ML, and full-stack apps**.
@@ -21,7 +19,7 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
 
 ### 1) Robot Navigation in Crowded Environments
 - **What**: Navigation stack for Clearpath **Jackal** with **ROS Noetic**, **LiDAR pedestrian detection**, and **social force models** (pedsim_ros)
-- **How**: Python/C++, ROS, Gazebo, VLP-16, YOLO (vision), particle filtering
+- **How**: Python/C++, ROS, Gazebo, VLP-16, particle filtering
 - **Highlights**: Custom pedestrian detection + robot avoidance modules; experiments in realistic sim worlds
 - **Links**: [Repo](https://github.com/YOUR_GITHUB/robot-navigation) · [Demo Video](https://YOUR_DEMO_LINK)  
 ![Jackal demo](assets/img/jackal_demo.jpg)
@@ -84,11 +82,11 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
     </tr>
     <tr>
       <td>🌐</td>
-      <td><a href="https://linkedin.com/in/konstantinos-christopoulos">The things I do daily on LinkedIn</a></td>
+      - <td><a href="https://linkedin.com/in/konstantinos-christopoulos-9365b3256">The things I do daily on LinkedIn</a></td>
     </tr>
     <tr>
       <td>💻</td>
-      <td><a href="(https://github.com/KonstantinosC7">Projects i have implemented</a></td>
+      - <td><a href="https://github.com/KonstantinosC7">Projects i have implemented</a></td>
     </tr>
   </tbody>
 </table>
