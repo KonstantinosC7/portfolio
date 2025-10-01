@@ -50,7 +50,7 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
 ## 🎓 Education
 **MSc, Computer Engineering & Informatics — University of Ioannina**  
 - Focus: Robotics, ML, Software Engineering  
-- Thesis: *Robot Navigation in Crowded Environments*
+- Thesis: *Robot Navigation in Presence of People*
 
 
 ---
