@@ -1,6 +1,4 @@
 title: "Konstantinos Christopoulos"
-logo: My-photo.jpg
-description: "Robotics, ML  and Full-Stack Projects"
 theme: jekyll-theme-minimal  # change to other supported themes if you prefer
 markdown: kramdown
 plugins:
@@ -10,5 +8,5 @@ url: "https://KonstantinosC7.github.io"
 baseurl: ""  # leave empty for user/organization pages
 social_links:
   github: https://github.com/KonstantinosC7
-  linkedin: https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256
+  linkedin: https://www.linkedin.com/in/konstantinos-christopoulos
   email: christopoulok218@gmail.com
