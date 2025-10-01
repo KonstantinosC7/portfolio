@@ -58,38 +58,13 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
 ---
 
 
-## 📬 Contact
-- 📧 christopoulosk218@gmail.com 
+## 📬 Contact Details
+- 📧 christopoulosk218@gmail.com
+- 📍 Athens, Greece
+- ⬇️ [Download my CV]()
 - 🔗 [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)  
 - 💻 [GitHub](https://github.com/KonstantinosC7)
 
-## CONTACT DETAILS
-
-*Let’s connect and see how we can make a difference together!*
-<table>
-  <tbody>
-    <tr>
-      <td>📧</td>
-      <td><a href="mailto:christopoulosk218@gmail.com">christopoulosk218@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td>📍</td>
-      <td>Athens, Greece</td>
-    </tr>
-    <tr>
-      <td>⬇️</td>
-      <td>Download my CV </td>
-    </tr>
-    <tr>
-      <td>🌐</td>
-      - <td><a href="https://linkedin.com/in/konstantinos-christopoulos-9365b3256">LinkedIn</a></td>
-    </tr>
-    <tr>
-      <td>💻</td>
-      - <td><a href="https://github.com/KonstantinosC7">GitHub</a></td>
-    </tr>
-  </tbody>
-</table>
 
 
 
