@@ -25,7 +25,7 @@ title: "Home"
   <p class="tagline">Computer Engineering & Informatics Graduate — building intelligent systems in <strong>Robotics</strong>, <strong>ML/CV</strong>, and <strong>Full-Stack</strong>.</p>
   <div class="cta">
     <a class="btn primary" href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download CV</a>
-    <a class="btn" href="(https://github.com/KonstantinosC7)" target="_blank">GitHub</a>
+    <a class="btn" href="https://github.com/KonstantinosC7" target="_blank">GitHub</a>
     <a class="btn" href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">LinkedIn</a>
     <a class="btn ghost" href="mailto:christopoulosk218@gmail.com">Email me</a>
   </div>
