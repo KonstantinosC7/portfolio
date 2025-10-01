@@ -3,12 +3,14 @@ layout: default
 title: "Konstantinos Christopoulos"
 ---
 
+## ABOUT ME
+
 # 👋 Hi, I’m Konstantinos Christopoulos
 **Computer Engineering & Informatics Graduate**  
-Building intelligent systems—**robotics, ML, computer vision, and full-stack apps**.
+Building intelligent systems—**robotics, ML, and full-stack apps**.
 
-- 🔭 Recent: Intelligent robot navigation in dynamic pedestrian scenarios (LiDAR + ROS + CV)
-- 💻 Also: Spring Boot + MySQL apps, computer vision (YOLO), data/ML pipelines
+- 🔭 Recent: Intelligent robot navigation in dynamic pedestrian scenarios (LiDAR + ROS)
+- 💻 Also: Spring Boot + MySQL apps, data/ML pipelines
 - 🎯 Goal: Bridge **research** & **industry** with practical, scalable solutions
 
 [Download CV](assets/CV_Konstantinos_Christopoulos.pdf) · [GitHub](https://github.com/KonstantinosC7) · [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)   · [Email](mailto:christopoulosk218@gmail.com)
@@ -43,28 +45,54 @@ Building intelligent systems—**robotics, ML, computer vision, and full-stack a
 ## 🛠️ Skills
 
 **Languages:** Python, C/C++, Java, SQL  
-**Frameworks:** ROS, Spring Boot, OpenCV, PyTorch/TensorFlow  
-**Tools:** Git/GitHub, Docker, Gazebo, Linux, LaTeX  
-**Domains:** Robotics, ML/CV, Full-Stack Web, Databases, Distributed Systems
+**Frameworks:** ROS, Spring Boot, PyTorch/TensorFlow  
+**Tools:** Git/GitHub, Gazebo, Linux, LaTeX  
+**Domains:** Robotics, ML, Full-Stack Web, Databases
 
 ---
 
 ## 🎓 Education
-**BSc, Computer Engineering & Informatics — University of Ioannina**  
+**MSc, Computer Engineering & Informatics — University of Ioannina**  
 - Focus: Robotics, ML, Software Engineering  
 - Thesis: *Robot Navigation in Crowded Environments*
 
----
-
-## ✍️ Writing (Optional)
-- How I built LiDAR-based pedestrian detection in ROS — *coming soon*  
-- Lessons learned from building my first Spring Boot app — *coming soon*
 
 ---
+
 
 ## 📬 Contact
 - 📧 christopoulosk218@gmail.com 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)  
 - 💻 [GitHub](https://github.com/KonstantinosC7)
+
+## CONTACT DETAILS
+
+*Let’s connect and see how we can make a difference together!*
+<table>
+  <tbody>
+    <tr>
+      <td>📧</td>
+      <td><a href="mailto:christopoulosk218@gmail.com">christopoulosk218@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td>📍</td>
+      <td>Athens, Greece</td>
+    </tr>
+    <tr>
+      <td>⬇️</td>
+      <td>Download my CV </td>
+    </tr>
+    <tr>
+      <td>🌐</td>
+      <td><a href="https://linkedin.com/in/konstantinos-christopoulos">The things I do daily on LinkedIn</a></td>
+    </tr>
+    <tr>
+      <td>💻</td>
+      <td><a href="(https://github.com/KonstantinosC7">Projects i have implemented</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
