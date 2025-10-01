@@ -82,11 +82,11 @@ Building intelligent systems—**robotics, ML, and full-stack apps**.
     </tr>
     <tr>
       <td>🌐</td>
-      - <td><a href="https://linkedin.com/in/konstantinos-christopoulos-9365b3256">The things I do daily on LinkedIn</a></td>
+      - <td><a href="https://linkedin.com/in/konstantinos-christopoulos-9365b3256">LinkedIn</a></td>
     </tr>
     <tr>
       <td>💻</td>
-      - <td><a href="https://github.com/KonstantinosC7">Projects i have implemented</a></td>
+      - <td><a href="https://github.com/KonstantinosC7">GitHub</a></td>
     </tr>
   </tbody>
 </table>
