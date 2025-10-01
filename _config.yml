@@ -1,6 +1,6 @@
 title: "Konstantinos Christopoulos"
 description: "Robotics, ML  and Full-Stack Projects"
-theme: jekyll-theme-minimal  # change to other supported themes if you prefer
+theme: jekyll-theme-cayman  # change to other supported themes if you prefer
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
