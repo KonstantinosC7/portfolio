@@ -63,8 +63,8 @@ Building intelligent systems—**robotics, ML, computer vision, and full-stack a
 ---
 
 ## 📬 Contact
-- 📧 YOUR_EMAIL@example.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)  
-- 💻 [GitHub](https://github.com/YOUR_GITHUB)
+- 📧 christopoulosk218@gmail.com 
+- 🔗 [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)  
+- 💻 [GitHub](https://github.com/KonstantinosC7)
 
 *Last updated: {{ site.time | date: "%B %Y" }}*
