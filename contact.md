@@ -23,7 +23,7 @@ title: "Contact"
 - - 📍 Athens, Greece
 - ⬇️ [Download my CV]()
 - 🔗 LinkedIn: <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">Linkedin</a>  
-- 💻 GitHub: <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">GitHub/a>
+- 💻 GitHub: <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">GitHub</a>
 
   <!-- (Optional) Formspree contact form — replace YOUR_FORMSPREE_ID
   <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
