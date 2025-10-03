@@ -18,7 +18,7 @@ title: "Home"
 <header class="hero">
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar">
   <h1>Konstantinos Christopoulos</h1>
-  <p class="tagline">Computer Engineering & Informatics Graduate — building intelligent systems in <strong>Robotics</strong>, <strong>ML/CV</strong>, and <strong>Full-Stack</strong>.</p>
+  <p class="tagline">Computer Engineering & Informatics Graduate — building intelligent systems in <strong>Robotics</strong>, <strong>ML</strong>, and <strong>Full-Stack</strong>.</p>
   <div class="cta">
     <a class="btn primary" href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download CV</a>
     <a class="btn" href="https://github.com/KonstantinosC7" target="_blank">GitHub</a>
