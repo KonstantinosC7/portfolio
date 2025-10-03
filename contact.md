@@ -6,13 +6,10 @@ title: "Contact"
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <nav class="navbar">
-  <div class="nav-inner">
-    <a class="brand" href="{{ '/' | relative_url }}">KC</a>
-    <div class="links">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/projects' | relative_url }}">Projects</a>
-      <a class="active" href="{{ '/contact' | relative_url }}">Contact</a>
-    </div>
+  <div class="links">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/projects' | relative_url }}">Projects</a>
+    <a class="active" href="{{ '/contact' | relative_url }}">Contact</a>
   </div>
 </nav>
 
