@@ -1,6 +1,12 @@
 <nav class="pillbar">
   <ul class="pill-links">
     <li>
+      <a href="{{ '/' | relative_url }}"
+         class="{% if page.nav_active == 'home' %}active{% endif %}">
+        Home
+      </a>
+    </li>
+    <li>
       <a href="{{ '/thesis' | relative_url }}"
          class="{% if page.nav_active == 'thesis' %}active{% endif %}">
         Diploma Thesis
