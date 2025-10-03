@@ -32,7 +32,7 @@ title: "Home"
     <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white">
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
   </div>
-</header>-->
+</header>
 
 
 <!-- About -->
@@ -42,7 +42,7 @@ title: "Home"
     I’m passionate about turning research into deployable systems. My diploma thesis focused on intelligent robot navigation in dynamic pedestrian scenarios,
     combining LiDAR perception with decision-making algorithms. I also build full-stack apps.
   </p>
-</section>
+</section>-->
 
 <section class="section">
   <div class="about-wrap">
