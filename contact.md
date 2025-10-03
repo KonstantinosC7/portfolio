@@ -1,16 +1,13 @@
 ---
 layout: default
 title: "Contact"
+nav_active: contact
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<nav class="navbar">
-  <div class="links">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/projects' | relative_url }}">Projects</a>
-  </div>
-</nav>
+{% include topnav.html %}
+
 
 <section class="section">
   <h1>Contact</h1>
