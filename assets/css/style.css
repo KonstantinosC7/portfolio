@@ -213,7 +213,7 @@ a:hover { text-decoration: underline; }
 .card-img{
   width: 100%;
   aspect-ratio: 16 / 9;   /* consistent tiles */
-  object-fit: contain;    /* don't crop; show entire image */
+  object-fit: cover;    /* don't crop; show entire image */
   background: rgba(255,255,255,.05);  /* subtle frame around odd aspect images */
   border-bottom: 1px solid rgba(255,255,255,.06);
 }
