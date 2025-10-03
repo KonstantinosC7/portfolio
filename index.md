@@ -8,13 +8,9 @@ title: "Home"
 
 <!-- Top Navigation -->
 <nav class="navbar">
-  <div class="nav-inner">
-    <a class="brand" href="{{ '/' | relative_url }}">KC</a>
-    <div class="links">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/projects' | relative_url }}">Projects</a>
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
-    </div>
+  <div class="links">
+    <a href="{{ '/projects' | relative_url }}">Projects</a>
+    <a href="{{ '/contact' | relative_url }}">Contact</a>
   </div>
 </nav>
 
@@ -48,7 +44,7 @@ title: "Home"
       <div class="card-body">
         <h3>Robot Navigation in Crowded Environments</h3>
         <p>Navigation stack for Clearpath <strong>Jackal</strong> with ROS Noetic, LiDAR pedestrian detection (VLP-16), social force models (<em>pedsim_ros</em>), and custom robot avoidance.</p>
-        <p class="tech">Python, C++, ROS, Gazebo, OpenCV/YOLO</p>
+        <p class="tech">Python, C++, ROS, Gazebo</p>
         <div class="card-actions">
           <a class="btn small" href="https://github.com/YOUR_GITHUB_USERNAME/robot-navigation" target="_blank">Repo</a>
           <a class="btn small ghost" href="https://YOUR_DEMO_LINK" target="_blank">Demo</a>
