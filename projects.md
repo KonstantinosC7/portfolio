@@ -19,15 +19,16 @@ title: "Projects"
 
     <!-- Robot Navigation -->
     <article class="p-card">
-      <img class="p-thumb" src="{{ '/assets/img/jackal_demo.jpg' | relative_url }}" alt="Robot Navigation">
+      <img class="p-thumb" src="{{ '/assets/img/jackal_lab.jpg' | relative_url }}" alt="Robot Navigation">
       <div class="p-body">
         <h3>Robot Navigation in Presence of People</h3>
+        Navi
         <ul class="p-bullets">
           <li>Navigation stack for Clearpath <strong>Jackal</strong> (ROS Noetic).</li>
           <li>LiDAR pedestrian detection + social-force-aware avoidance.</li>
           <li>Custom perception & planning modules; evaluated in realistic sims.</li>
         </ul>
-        <p class="p-tech">Python, C++, ROS, Gazebo, VLP-16, OpenCV/YOLO</p>
+        <p class="p-tech">Python, C++, ROS, Gazebo, VLP-16</p>
         <div class="p-actions">
           <a class="btn small" href="https://github.com/YOUR_GITHUB/robot-navigation" target="_blank">Repo</a>
           <a class="btn small" href="https://YOUR_DEMO_LINK" target="_blank">Demo</a>
@@ -38,7 +39,7 @@ title: "Projects"
 
     <!-- TrainUp -->
     <article class="p-card">
-      <img class="p-thumb" src="{{ '/assets/img/trainup_screenshot.png' | relative_url }}" alt="TrainUp">
+      <img class="p-thumb" src="{{ '/assets/img/TrainUp/TrainUp.jpg' | relative_url }}" alt="TrainUp">
       <div class="p-body">
         <h3>TrainUp — Traineeship Matching</h3>
         <ul class="p-bullets">
@@ -52,8 +53,6 @@ title: "Projects"
         </div>
       </div>
     </article>
-
-</section>
 
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
