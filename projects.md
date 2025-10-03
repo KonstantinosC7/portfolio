@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Projects"
+nav_active: projects
+
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
