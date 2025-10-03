@@ -1,8 +1,41 @@
+---
+layout: default
+title: "Contact"
+---
 
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-## 📬 Contact Details
+<nav class="navbar">
+  <div class="nav-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">KC</a>
+    <div class="links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/projects' | relative_url }}">Projects</a>
+      <a class="active" href="{{ '/contact' | relative_url }}">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+  <h1>Contact</h1>
+  <p>If my work aligns with your needs, I’d love to connect.</p>
+
 - 📧 christopoulosk218@gmail.com
 - 📍 Athens, Greece
 - ⬇️ [Download my CV]()
 - 🔗 [LinkedIn](https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256)  
 - 💻 [GitHub](https://github.com/KonstantinosC7)
+
+  <!-- (Optional) Formspree contact form — replace YOUR_FORMSPREE_ID
+  <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="_replyto" placeholder="Your email" required>
+    <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+    <button type="submit" class="btn primary">Send</button>
+  </form>
+  -->
+</section>
+
+<footer class="footer">
+  <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
+</footer>
