@@ -35,7 +35,7 @@ title: "Home"
 </header>-->
 
 
-<!-- About -->
+<!-- About 
 <section class="section">
   <h2>About</h2>
   <p>
