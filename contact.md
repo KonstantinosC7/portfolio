@@ -43,14 +43,3 @@ title: "Contact"
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
 </footer>
-
-
-
-  <!-- (Optional) Formspree contact form — replace YOUR_FORMSPREE_ID
-  <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="_replyto" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message" rows="6" required></textarea>
-    <button type="submit" class="btn primary">Send</button>
-  </form>
-  -->
