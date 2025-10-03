@@ -40,7 +40,7 @@ title: "Home"
   <h2>About</h2>
   <p>
     I’m passionate about turning research into deployable systems. My diploma thesis focused on intelligent robot navigation in dynamic pedestrian scenarios,
-    combining LiDAR & vision perception with decision-making algorithms. I also build full-stack apps.
+    combining LiDAR perception with decision-making algorithms. I also build full-stack apps.
   </p>
 </section>
 
