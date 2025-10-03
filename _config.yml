@@ -6,7 +6,7 @@ plugins:
   - jekyll-sitemap
   
 url: "https://KonstantinosC7.github.io"
-baseurl: ""  # leave empty for user/organization pages
+baseurl: "/portfolio"  # leave empty for user/organization pages
 
 include:
   - assets/css
