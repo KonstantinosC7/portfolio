@@ -20,7 +20,7 @@ title: "Contact"
   <h1>Contact</h1>
 
 - 📧 Email: <a href="mailto:christopoulosk218@gmail.com">christopoulosk218@gmail.com</a>
-- - 📍 Athens, Greece
+- 📍 Athens, Greece
 - ⬇️ [Download my CV]()
 - 🔗 LinkedIn: <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">linkedin.com/in/konstantinos-christopoulos</a>  
 - 💻 GitHub: <a href="https://github.com/KonstantinosC7" target="_blank">github.com/KonstantinosC7</a>
