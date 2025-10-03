@@ -34,6 +34,16 @@ title: "Home"
   </div>
 </header>
 
+
+<!-- About -->
+<section class="section">
+  <h2>About</h2>
+  <p>
+    I’m passionate about turning research into deployable systems. My diploma thesis focused on intelligent robot navigation in dynamic pedestrian scenarios,
+    combining LiDAR & vision perception with decision-making algorithms. I also build full-stack apps.
+  </p>
+</section>
+
 <!-- Featured Projects -->
 <section class="section">
   <h2>Featured Projects</h2>
@@ -78,14 +88,7 @@ title: "Home"
   </div>
 </section>
 
-<!-- About -->
-<section class="section">
-  <h2>About</h2>
-  <p>
-    I’m passionate about turning research into deployable systems. My diploma thesis focused on intelligent robot navigation in dynamic pedestrian scenarios,
-    combining LiDAR & vision perception with decision-making algorithms. I also build full-stack apps.
-  </p>
-</section>
+
 
 <!-- Skills -->
 <section class="section">
