@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 
 <!-- Top Navigation -->
 <nav class="navbar">
