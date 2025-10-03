@@ -44,61 +44,54 @@ title: "Home"
   </p>
 </section>
 
-<!-- Featured Projects -->
 <section class="section">
-  <h2>Featured Projects</h2>
+  <div class="about-wrap">
 
-  <div class="cards">
-    <article class="card">
-      <img src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Jackal demo" class="card-img">
-      <div class="card-body">
-        <h3>Robot Navigation in Presence of People</h3>
-        <p>Navigation stack for Clearpath <strong>Jackal</strong> with ROS Noetic, LiDAR pedestrian detection (VLP-16), social force models (<em>pedsim_ros</em>), and custom robot avoidance.</p>
-        <p class="tech">Python, C++, ROS, Gazebo</p>
-        <div class="card-actions">
-          <a class="btn small" href="https://github.com/YOUR_GITHUB_USERNAME/robot-navigation" target="_blank">Repo</a>
-          <a class="btn small ghost" href="https://YOUR_DEMO_LINK" target="_blank">Demo</a>
-        </div>
-      </div>
-    </article>
+    <!-- Left profile card -->
+    <aside class="profile-card">
+      <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar lg">
+      <h3 class="name">Konstantinos Christopoulos</h3>
+      <p class="role">Computer Engineering & Informatics</p>
 
-    <article class="card">
-      <img src="{{ '/assets/img/TrainUp/TrainUp.jpg' | relative_url }}" alt="TrainUp screenshot" class="card-img">
-      <div class="card-body">
-        <h3>TrainUp — Traineeship Matching</h3>
-        <p>Application that helps the University's Internship Committee monitor and manage both available and already assigned internship positions.</p>
-        <p class="tech">Spring Boot, Thymeleaf, MySQL, HTML/CSS/Bootstrap</p>
-        <div class="card-actions">
-          <a class="btn small" href="https://github.com/YOUR_GITHUB_USERNAME/trainup" target="_blank">Repo</a>
-        </div>
+      <div class="icon-row">
+        <a href="mailto:christopoulosk218@gmail.com" title="Email">✉️</a>
+        <a href="https://github.com/KonstantinosC7" target="_blank" title="GitHub">🐙</a>
+        <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank" title="LinkedIn">in</a>
       </div>
-    </article>
+    </aside>
 
-    <article class="card">
-      <img src="{{ '/assets/img/socialbookstore.png' | relative_url }}" alt="SocialBookstore screenshot" class="card-img">
-      <div class="card-body">
-        <h3>SocialBookstore — Book Exchange & Ratings</h3>
-        <p>Credit/points system, ratings, search & profiles; built for student communities.</p>
-        <p class="tech">Java, MySQL, HTML/CSS/Bootstrap</p>
-        <div class="card-actions">
-          <a class="btn small" href="https://github.com/YOUR_GITHUB_USERNAME/socialbookstore" target="_blank">Repo</a>
-        </div>
+    <!-- Right content -->
+    <main class="about-panel">
+      <h2>About Me</h2>
+      <p>
+        I’m passionate about turning research into deployable systems. My diploma thesis focused on
+        intelligent robot navigation in dynamic pedestrian scenarios, combining LiDAR perception with
+        decision-making algorithms. I also build full-stack apps.
+      </p>
+      <a class="btn primary" href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download CV</a>
+
+      <div class="cols">
+        <section>
+          <h3>Skills</h3>
+          <ul class="list-dot">
+            <li><strong>Languages:</strong> Python, C/C++, Java, SQL</li>
+            <li><strong>Frameworks:</strong> ROS, Spring Boot, PyTorch/TensorFlow</li>
+            <li><strong>Tools:</strong> Git/GitHub, Gazebo, Linux/Ubuntu, LaTeX</li>
+            <li><strong>Domains:</strong> Robotics, ML, Full-Stack Web, Databases</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Education</h3>
+          <ul class="list-dot">
+            <li><strong>BSc, Computer Engineering & Informatics</strong><br>University of Ioannina</li>
+            <li><strong>Thesis:</strong> Robot Navigation in Crowded Environments</li>
+          </ul>
+        </section>
       </div>
-    </article>
+    </main>
+
   </div>
-</section>
-
-
-
-<!-- Skills -->
-<section class="section">
-  <h2>Skills</h2>
-  <ul class="skills">
-    <li><strong>Languages:</strong> Python, C/C++, Java, SQL</li>
-    <li><strong>Frameworks:</strong> ROS, Spring Boot, PyTorch/TensorFlow</li>
-    <li><strong>Tools:</strong> Git/GitHub,Gazebo, Linux/Ubuntu, LaTeX</li>
-    <li><strong>Domains:</strong> Robotics, ML, Full-Stack Web, Databases</li>
-  </ul>
 </section>
 
 <!-- Footer -->
