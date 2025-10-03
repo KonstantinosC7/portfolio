@@ -379,3 +379,37 @@ a:hover { text-decoration: underline; }
 }
 .toplinks a:hover::after, .toplinks a.active::after{ transform: scaleX(1); }
 
+
+/* ===== Centered pill nav (no name) ===== */
+.pillbar{
+  position: sticky; top: 0; z-index: 999;
+  background: rgba(15,26,43,.90);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  backdrop-filter: blur(6px);
+}
+.pill-links{
+  list-style: none;
+  margin: 0; padding: 10px 16px;
+  display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+}
+.pill-links a{
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.04);
+  color: var(--text); text-decoration: none; font-weight: 700;
+  letter-spacing: .2px; opacity: .95; transition: all .15s ease;
+}
+.pill-links a:hover{ opacity: 1; transform: translateY(-1px); box-shadow: 0 6px 18px var(--shadow); }
+.pill-links a.active{
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: #0b1220; border-color: transparent;
+}
+
+/* small screens */
+@media (max-width: 420px){
+  .pill-links a{ padding: 8px 12px; font-weight: 600; }
+}
+
+
