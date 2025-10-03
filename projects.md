@@ -5,12 +5,7 @@ title: "Projects"
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<nav class="navbar">
-  <div class="links">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/contact' | relative_url }}">Contact</a>
-  </div>
-</nav>
+{% include topnav.html %}
 
 <section class="section">
   <h1>Projects</h1>
