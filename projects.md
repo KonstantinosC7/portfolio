@@ -17,7 +17,7 @@ title: "Projects"
 - **How**: Python/C++, ROS, Gazebo, VLP-16, YOLO (vision), particle filtering
 - **Highlights**: Custom pedestrian detection + robot avoidance modules; experiments in realistic sim worlds
 - **Links**: [Repo](https://github.com/YOUR_GITHUB/robot-navigation) · [Demo Video](https://YOUR_DEMO_LINK)  
-![Jackal demo](assets/img/jackal_demo.jpg)
+![Jackal demo](/assets/img/jackal_demo.jpg)
 
 ---
 
