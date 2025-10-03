@@ -19,7 +19,7 @@ title: "Projects"
 
     <!-- Robot Navigation -->
     <article class="p-card">
-      <img class="p-thumb" src="{{ '/assets/img/jackal_lab.jpg' | relative_url }}" alt="Robot Navigation">
+      <img class="p-thumb" src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Robot Navigation">
       <div class="p-body">
         <h3>Robot Navigation in Presence of People</h3>
         Navi
