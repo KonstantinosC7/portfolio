@@ -1,0 +1,22 @@
+<nav class="pillbar">
+  <ul class="pill-links">
+    <li>
+      <a href="{{ '/thesis' | relative_url }}"
+         class="{% if page.nav_active == 'thesis' %}active{% endif %}">
+        Diploma Thesis
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/projects' | relative_url }}"
+         class="{% if page.nav_active == 'projects' %}active{% endif %}">
+        Projects
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/contact' | relative_url }}"
+         class="{% if page.nav_active == 'contact' %}active{% endif %}">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
