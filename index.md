@@ -9,7 +9,6 @@ title: "Home"
 <!-- Top Navigation -->
 <nav class="topbar">
   <div class="topbar-inner">
-    <a class="brand-name" href="{{ '/' | relative_url }}">Konstantinos Christopoulos</a>
 
   <ul class="toplinks">
       <!-- add class="active" on the link that corresponds to the current page -->
