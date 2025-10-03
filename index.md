@@ -32,7 +32,7 @@ title: "Home"
     <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white">
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
   </div>
-</header>
+</header>-->
 
 
 <!-- About -->
