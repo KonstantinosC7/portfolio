@@ -1,23 +1,13 @@
 ---
 layout: default
 title: "Home"
+nav_active: home
 ---
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 
-<!-- Top Navigation -->
-<nav class="topbar">
-  <div class="topbar-inner">
-
-  <ul class="toplinks">
-      <!-- add class="active" on the link that corresponds to the current page -->
-      <li><a href="{{ '/thesis'   | relative_url }}" class="">Diploma Thesis</a></li>
-      <li><a href="{{ '/projects' | relative_url }}" class="">Projects</a></li>
-      <li><a href="{{ '/contact'  | relative_url }}" class="">Contact</a></li>
-  </ul>
-  </div>
-</nav>
+{% include topnav.html %}
 
 
 <section class="section">
