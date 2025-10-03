@@ -63,10 +63,10 @@ title: "Home"
     </article>
 
     <article class="card">
-      <img src="{{ '/assets/img/trainup_screenshot.png' | relative_url }}" alt="TrainUp screenshot" class="card-img">
+      <img src="{{ '/assets/img/TrainUp/TrainUp.jpg' | relative_url }}" alt="TrainUp screenshot" class="card-img">
       <div class="card-body">
         <h3>TrainUp — Traineeship Matching</h3>
-        <p>Platform connecting students, professors, and companies; roles, requests, matching, and notifications.</p>
+        <p>Application that helps the University's Internship Committee monitor and manage both available and already assigned internship positions.</p>
         <p class="tech">Spring Boot, Thymeleaf, MySQL, Bootstrap</p>
         <div class="card-actions">
           <a class="btn small" href="https://github.com/YOUR_GITHUB_USERNAME/trainup" target="_blank">Repo</a>
