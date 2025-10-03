@@ -28,7 +28,3 @@ title: "Projects"
 
 ---
 
-### 3) SocialBookstore — Book Exchange & Ratings
-- **Stack**: Java, MySQL, HTML/CSS/Bootstrap
-- **What**: Credit/points, ratings, search, user profiles
-- **Links**: [Repo](https://github.com/YOUR_GITHUB/socialbookstore)
