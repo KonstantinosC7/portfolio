@@ -108,3 +108,103 @@ body{
   .hero h1{ font-size: 28px; }
   .avatar{ width: 110px; height: 110px; }
 }
+
+
+/* === Minimal, programmer-friendly overrides === */
+
+/* GitHub-Dark inspired palette, higher contrast */
+:root{
+  --bg: #0b1220;          /* darker background */
+  --panel: #0f1a2b;       /* elevated surfaces */
+  --text: #e6edf3;        /* main text */
+  --muted: #9aa4b2;       /* secondary text */
+  --primary: #58a6ff;     /* links/buttons */
+  --accent: #7ee787;      /* subtle accent */
+}
+
+/* Background: reduce heavy gradients for a calmer look */
+body{
+  background: radial-gradient(900px 500px at 20% -10%, rgba(88,166,255,.18), transparent 60%),
+              var(--bg);
+  color: var(--text);
+}
+
+/* Headings: cleaner spacing & weight */
+h1, h2, h3 { letter-spacing: 0.2px; }
+
+/* Links: higher contrast + underline on hover for accessibility */
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Navbar: slimmer, clearer */
+.navbar{
+  background: rgba(15,26,43,.9);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.navbar .brand{
+  font-weight: 900;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.navbar .links a{ opacity: .95; }
+.navbar .links a:hover,
+.navbar .links a.active { opacity: 1; }
+
+/* Section copy: slightly larger for readability */
+.section { font-size: 17px; }
+
+/* Key–Value table (Contact) */
+.kv-table{
+  width: 100%;
+  max-width: 760px;
+  margin: 18px auto 0;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  overflow: hidden; /* keeps rounded corners */
+  box-shadow: 0 10px 24px rgba(0,0,0,.35);
+}
+.kv-table th,
+.kv-table td{
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.kv-table tr:last-child th,
+.kv-table tr:last-child td{ border-bottom: 0; }
+
+/* Make the KEY very obvious */
+.kv-table th{
+  width: 180px;
+  text-align: right;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: #c6d2de;    /* stronger than muted */
+  background: rgba(255,255,255,.03);
+}
+
+/* Values stay easy to read */
+.kv-table td{ color: var(--text); }
+
+/* Muted helper text */
+.muted{ color: var(--muted); }
+
+/* Buttons: subtle but crisp */
+.btn{
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,.12);
+}
+.btn.primary{ background: linear-gradient(90deg, var(--primary), var(--accent)); color: #0b1220; }
+
+/* Cards: less gloss, more focus */
+.card{
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+/* Footer: dimmer line for a lighter feel */
+.footer{
+  border-top: 1px solid rgba(255,255,255,.06);
+  color: var(--muted);
+}
