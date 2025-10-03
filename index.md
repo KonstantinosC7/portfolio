@@ -51,7 +51,7 @@ title: "Home"
     <aside class="profile-card">
       <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar lg">
       <h3 class="name">Konstantinos Christopoulos</h3>
-      <p class="role">Computer Engineering & Informatics</p>
+      <p class="role">Computer Science & Engineering</p>
 
       <div class="icon-row">
         <a href="mailto:christopoulosk218@gmail.com" title="Email">✉️</a>
@@ -66,7 +66,7 @@ title: "Home"
       <p>
         I’m passionate about turning research into deployable systems. My diploma thesis focused on
         intelligent robot navigation in dynamic pedestrian scenarios, combining LiDAR perception with
-        decision-making algorithms. I also build full-stack apps.
+        decision-making algorithms. I also build full-stack apps using Spring Boot.
       </p>
       <a class="btn primary" href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download CV</a>
 
@@ -84,8 +84,8 @@ title: "Home"
         <section>
           <h3>Education</h3>
           <ul class="list-dot">
-            <li><strong>BSc, Computer Engineering & Informatics</strong><br>University of Ioannina</li>
-            <li><strong>Thesis:</strong> Robot Navigation in Crowded Environments</li>
+            <li><strong>MSc, Computer Science & Engineering</strong><br>University of Ioannina</li>
+            <li><strong>Thesis:</strong> Robot Navigation in Presence of People</li>
           </ul>
         </section>
       </div>
