@@ -40,7 +40,7 @@ title: "Home"
 
   <div class="cards">
     <article class="card">
-      <img src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Jackal demo" class="card-img">
+      <img src="{{ 'assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Jackal demo" class="card-img">
       <div class="card-body">
         <h3>Robot Navigation in Presence of People</h3>
         <p>Navigation stack for Clearpath <strong>Jackal</strong> with ROS Noetic, LiDAR pedestrian detection (VLP-16), social force models (<em>pedsim_ros</em>), and custom robot avoidance.</p>
