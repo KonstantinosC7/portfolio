@@ -3,6 +3,13 @@ layout: default
 title: "Projects"
 ---
 
+<nav class="navbar">
+  <div class="links">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/projects' | relative_url }}">Projects</a>
+  </div>
+</nav>
+
 ## 🧩 Projects
 
 ### 1) Robot Navigation in Crowded Environments
