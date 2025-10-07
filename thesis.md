@@ -89,8 +89,8 @@ nav_active: thesis
       <figcaption>Gazebo world with dynamic pedestrians.</figcaption>
     </figure>
     <figure class="figure">
-      <img src="{{ '/assets/img/Diploma/trajectories.png' | relative_url }}" alt="Trajectories">
-      <figcaption>Example trajectories: robot vs. pedestrians.</figcaption>
+      <img src="{{ '/assets/img/Diploma/forces_in_map.png' | relative_url }}" alt="Trajectories">
+      <figcaption>Robot & Pedestrians Positions with Potential Field Forces and Obstacles.</figcaption>
     </figure>
   </div>
 </section>
