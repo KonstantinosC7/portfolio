@@ -27,7 +27,6 @@ nav_active: projects
           <a class="btn small" href="https://github.com/YOUR_GITHUB/trainup" target="_blank">Repo</a>
         </div>
       </div>
-    </div>
       <!-- Information Retrieval (Songs Search) -->
   <article class="p-card">
     <img class="p-thumb" src="{{ '/assets/img/InformationRetrieval/ir_ui.png' | relative_url }}" alt="Information Retrieval UI (songs search)">
