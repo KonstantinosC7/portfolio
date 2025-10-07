@@ -97,6 +97,87 @@ nav_active: thesis
   </div>
 </section>
 
+<!-- Gallery --> 
+<section class="section">
+  <h2>Gallery</h2>
+
+  <div class="gallery-grid">
+    <!-- Each tile -->
+    <figure class="g-item">
+      <img src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Lab setup — Jackal with VLP-16 LiDAR" data-caption="Lab setup — Jackal with VLP-16 LiDAR">
+      <figcaption>Lab setup — Jackal with VLP-16 LiDAR.</figcaption>
+    </figure>
+    <figure class="g-item">
+      <img src="{{ '/assets/img/Diploma/sim_world.png' | relative_url }}" alt="Jackal in Simulation Gazebo" data-caption="Jackal in Simulation Gazebo">
+      <figcaption>Jackal in Simulation Gazebo</figcaption>
+    </figure>
+    <figure class="g-item">
+      <img src="{{ '/assets/img/Diploma/trajectories.png' | relative_url }}" alt="Robot & Pedestrians with forces/obstacles" data-caption="Robot & Pedestrians — forces and obstacles">
+      <figcaption>Robot & Pedestrians Positions with Potential Field Forces and Obstacles.</figcaption>
+    </figure>
+  </div>
+
+  <!-- Lightbox viewer -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-prev" aria-label="Previous">‹</button>
+    <img class="lb-img" alt="">
+    <div class="lb-caption"></div>
+    <button class="lb-next" aria-label="Next">›</button>
+  </div>
+
+  <script>
+    // Minimal vanilla JS lightbox
+    (function(){
+      const tiles = Array.from(document.querySelectorAll('.gallery-grid .g-item img'));
+      const box = document.getElementById('lightbox');
+      const img = box.querySelector('.lb-img');
+      const cap = box.querySelector('.lb-caption');
+      const closeBtn = box.querySelector('.lb-close');
+      const prevBtn = box.querySelector('.lb-prev');
+      const nextBtn = box.querySelector('.lb-next');
+      let i = 0;
+
+      function open(idx){
+        i = idx;
+        const el = tiles[i];
+        img.src = el.src;
+        img.alt = el.alt || '';
+        cap.textContent = el.dataset.caption || el.alt || '';
+        box.setAttribute('aria-hidden','false');
+        document.body.style.overflow = 'hidden';
+      }
+      function close(){
+        box.setAttribute('aria-hidden','true');
+        document.body.style.overflow = '';
+      }
+      function prev(){ open( (i - 1 + tiles.length) % tiles.length ); }
+      function next(){ open( (i + 1) % tiles.length ); }
+
+      tiles.forEach((t, idx) => t.addEventListener('click', () => open(idx)));
+      closeBtn.addEventListener('click', close);
+      box.addEventListener('click', (e)=>{ if(e.target===box) close(); });
+      prevBtn.addEventListener('click', prev);
+      nextBtn.addEventListener('click', next);
+      document.addEventListener('keydown', (e)=>{
+        if(box.getAttribute('aria-hidden')==='true') return;
+        if(e.key==='Escape') close();
+        if(e.key==='ArrowLeft') prev();
+        if(e.key==='ArrowRight') next();
+      });
+
+      // touch swipe
+      let startX=0;
+      box.addEventListener('touchstart',(e)=> startX = e.touches[0].clientX, {passive:true});
+      box.addEventListener('touchend',(e)=>{
+        const dx = e.changedTouches[0].clientX - startX;
+        if(Math.abs(dx) > 40) (dx>0? prev: next)();
+      });
+    })();
+  </script>
+</section>
+
+
 <section class="section">
   <h2>Results &amp; Notes</h2>
   <ul class="list-dot">
