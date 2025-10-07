@@ -27,6 +27,7 @@ nav_active: projects
           <a class="btn small" href="https://github.com/YOUR_GITHUB/trainup" target="_blank">Repo</a>
         </div>
       </div>
+    </div>
       <!-- Information Retrieval (Songs Search) -->
   <article class="p-card">
     <img class="p-thumb" src="{{ '/assets/img/InformationRetrieval/ir_ui.png' | relative_url }}" alt="Information Retrieval UI (songs search)">
@@ -43,7 +44,6 @@ nav_active: projects
         <!-- Option A: link to the PDF in GitHub -->
         <a class="btn small ghost" href="https://github.com/KonstantinosC7/InformationRetrieval/blob/main/Report_Information_Retrieval.pdf" target="_blank">Report (PDF)</a>
       </div>
-    </div>
   </article>
 
 <footer class="footer">
