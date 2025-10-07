@@ -79,23 +79,6 @@ nav_active: thesis
   </div>
 </section>
 
-<section class="section">
-  <h2>Gallery</h2>
-  <div class="gallery">
-    <figure class="figure">
-      <img src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Lab setup">
-      <figcaption>Lab setup — Jackal with VLP-16 LiDAR.</figcaption>
-    </figure>
-    <figure class="figure">
-      <img src="{{ '/assets/img/Diploma/jackal_sim.jpg' | relative_url }}" alt="Simulation world">
-      <figcaption>Jackal in Simulation Gazebo</figcaption>
-    </figure>
-    <figure class="figure">
-      <img src="{{ '/assets/img/Diploma/forces_in_map.png' | relative_url }}" alt="Trajectories">
-      <figcaption>Robot & Pedestrians Positions with Potential Field Forces and Obstacles.</figcaption>
-    </figure>
-  </div>
-</section>
 
 <!-- Gallery --> 
 <section class="section">
@@ -108,11 +91,11 @@ nav_active: thesis
       <figcaption>Lab setup — Jackal with VLP-16 LiDAR.</figcaption>
     </figure>
     <figure class="g-item">
-      <img src="{{ '/assets/img/Diploma/sim_world.png' | relative_url }}" alt="Jackal in Simulation Gazebo" data-caption="Jackal in Simulation Gazebo">
+      <img src="{{ /assets/img/Diploma/jackal_sim.jpg' | relative_url }}" alt="Jackal in Simulation Gazebo" data-caption="Jackal in Simulation Gazebo">
       <figcaption>Jackal in Simulation Gazebo</figcaption>
     </figure>
     <figure class="g-item">
-      <img src="{{ '/assets/img/Diploma/trajectories.png' | relative_url }}" alt="Robot & Pedestrians with forces/obstacles" data-caption="Robot & Pedestrians — forces and obstacles">
+      <img src="{{ '/assets/img/Diploma/forces_in_map.png' | relative_url }}" alt="Robot & Pedestrians with forces/obstacles" data-caption="Robot & Pedestrians — forces and obstacles">
       <figcaption>Robot & Pedestrians Positions with Potential Field Forces and Obstacles.</figcaption>
     </figure>
   </div>
