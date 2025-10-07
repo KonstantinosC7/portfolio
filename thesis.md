@@ -12,7 +12,6 @@ nav_active: thesis
   <div class="thesis-title">
     <h1>Robot Navigation in Presence of People</h1>
     <p class="muted">Clearpath Jackal • ROS Noetic • LiDAR Perception • Social-Force-Aware Navigation</p>
-
     <div class="thesis-actions">
       <a class="btn primary" href="{{ 'assets/reports/Diploma_Thesis_Robotics.pdf' | relative_url }}" target="_blank">Download Report (PDF)</a>
       <a class="btn" href="https://github.com/YOUR_GITHUB/robot-navigation" target="_blank">Repository</a>
@@ -49,10 +48,17 @@ nav_active: thesis
 <section class="section">
   <h2>Abstract</h2>
   <p>
-    This work integrates LiDAR-based pedestrian perception with a social-force navigation model to
-    enable safe robot motion in crowded, dynamic environments. We implement custom modules for
-    pedestrian detection &amp; tracking and couple them with an avoidance layer that respects human
-    motion patterns. The system is evaluated in realistic Gazebo worlds using the Clearpath Jackal.
+   In this thesis, we present a novel multi-step pedestrian avoidance framework for mobile robots
+  navigating dynamic environments. The proposed system integrates <strong>LiDAR-based pedestrian
+  tracking, dynamic obstacle detection, and potential field navigation</strong> to ensure safe and efficient
+  robot movement in human spaces. We implement on the Jackal robot, integrating advanced
+  hardware components such as the <strong>Velodyne VLP-16 LiDAR</strong> to collect rich 3D point cloud
+  data. The avoidance methodology employs multi-step filtering to distinguish static and dynamic
+  obstacles, <strong>dynamic point clustering via DBSCAN, and Kalman filters</strong> for robust pedestrian
+  tracking and prediction pedestrian trajectories. As far as the pedestrian movement, we use the
+  <strong>Social Force Model (SFM)</strong>, combining attractive and repulsive forces. A <strong>potential field</strong> approach,
+  guides the robot toward a safe destination, while maintaining real-time adaptability to changing
+  conditions.
   </p>
 </section>
 
