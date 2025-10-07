@@ -61,10 +61,11 @@ nav_active: thesis
 <section class="section">
   <h2>Method</h2>
   <ul class="list-dot">
-    <li><strong>Perception:</strong> LiDAR clustering and association</li>
-    <li><strong>Crowd Model:</strong> <code>pedsim_ros</code> social forces to simulate human motion and constraints.</li>
-    <li><strong>Planning:</strong> Social-force-aware local planner with custom robot avoidance behavior.</li>
-    <li><strong>Evaluation:</strong> Scenarios with varying pedestrian densities and speeds in Gazebo.</li>
+    <li><strong>Pedestrians:</strong> <code>pedsim_ros</code> social forces to simulate human motion and constraints.</li>
+    <li><strong>Detection Pedestrian:</strong> LiDAR clustering (DBSCAN) and association.</li>
+    <li><strong>Tracking Pedestrian:</strong> Kalman filters for predicting pedestrian movement.</li>
+    <li><strong>Pedestrian Avoidance:</strong> determination of the best free point for the robot to move.</li>
+    <li><strong>Robot Movement:</strong> Potential Fields for moving the robot to the selected point in the map.</li>
   </ul>
   <p class="p-tech"><strong>Tech:</strong> Python, C++, ROS, Gazebo, VLP-16</p>
 </section>
