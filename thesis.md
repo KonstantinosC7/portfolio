@@ -11,7 +11,7 @@ nav_active: thesis
 <section class="section thesis-hero">
   <div class="thesis-title">
     <h1>Robot Navigation in Presence of People</h1>
-    <p class="muted">Clearpath Jackal • ROS Noetic • LiDAR Perception • Social-Force-Aware Navigation</p>
+    <p class="muted">Clearpath Jackal • ROS Noetic • LiDAR Perception • Social-Force-Model • Potential Fields</p>
     <div class="thesis-actions">
       <a class="btn primary" href="{{ 'assets/reports/Diploma_Thesis_Robotics.pdf' | relative_url }}" target="_blank">Download Report (PDF)</a>
       <a class="btn" href="https://github.com/YOUR_GITHUB/robot-navigation" target="_blank">Repository</a>
@@ -32,15 +32,11 @@ nav_active: thesis
     </div>
     <div class="kv">
       <h4>Sensors</h4>
-      <p>VLP-16 LiDAR (+ optional camera)</p>
+      <p>VLP-16 LiDAR</p>
     </div>
     <div class="kv">
       <h4>Stack</h4>
-      <p>ROS Noetic, Gazebo</p>
-    </div>
-    <div class="kv">
-      <h4>Keywords</h4>
-      <p>Pedestrian detection, social forces (<em>pedsim_ros</em>), local avoidance</p>
+      <p>ROS Noetic, Gazebo, RViz</p>
     </div>
   </div>
 </section>
