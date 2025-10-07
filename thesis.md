@@ -21,7 +21,7 @@ nav_active: thesis
   </div>
 
   <div class="thesis-hero-media">
-    <img src="{{ '/assets/img/Diploma/jackal_lab.jpg' | relative_url }}" alt="Jackal setup" class="hero-shot">
+    <img src="{{ '/assets/img/Diploma/Robot-Navigation.png' | relative_url }}" alt="Jackal setup" class="hero-shot">
   </div>
 </section>
 
