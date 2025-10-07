@@ -30,7 +30,7 @@ nav_active: projects
     </article>
     <!-- Information Retrieval (Songs Search) -->
   <article class="p-card">
-    <img class="p-thumb" src="{{ 'https://github.com/KonstantinosC7/InformationRetrieval/assets/Information-Retrieval.jpg' | relative_url }}" alt="Information Retrieval UI (songs search)">
+    <img class="p-thumb" src="{{ '/assets/img/Informationretrieval/Information-Retrieval.jpg' | relative_url }}" alt="Information Retrieval UI (songs search)">
     <div class="p-body">
       <h3>Information Retrieval — Songs Search Engine</h3>
       <ul class="p-bullets">
