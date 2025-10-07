@@ -98,9 +98,9 @@ nav_active: thesis
 <section class="section">
   <h2>Results &amp; Notes</h2>
   <ul class="list-dot">
-    <li>Robust person-aware navigation across densities; smooth avoidance in most scenarios.</li>
-    <li>Clear safety margins around pedestrians from social-force constraints.</li>
-    <li>Failure cases include sudden occlusions and adversarial pedestrian behavior—future work targets robust data association and policy learning.</li>
+    <li>Real-time pedestrian detection and avoidance. Works well in dynamic environments.</li>
+    <li>Modular ROS design, easy extendable.</li>
+    <li>Integration of additional sensing modalities, such as 3D cameras.</li>
   </ul>
 </section>
 
