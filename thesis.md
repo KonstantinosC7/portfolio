@@ -84,12 +84,11 @@ nav_active: thesis
         playsinline
         poster="{{ '/assets/img/Diploma/0deg_no_obs_poster.jpg' | relative_url }}">
         <!-- Best compatibility first -->
-        <source src="{{ '/assets/img/Diploma0deg_no_obs.mp4' | relative_url }}" type="video/mp4">
-        <source src="{{ '/assets/img/Diploma0deg_no_obs.webm' | relative_url }}" type="video/webm">
+        <source src="{{ '/assets/img/Diploma/0deg_no_obs.mp4' | relative_url }}" type="video/mp4">
         <!-- Keep MOV only as a last fallback -->
         <source src="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}" type="video/quicktime">
         Sorry—your browser can’t play this video. 
-        <a href="{{ '/assets/img/Diploma0deg_no_obs.mp4' | relative_url }}">Download the MP4</a>.
+        <a href="{{ '/assets/img/Diploma/0deg_no_obs.mp4' | relative_url }}">Download the MP4</a>.
       </video>
     </div>
     <figcaption class="muted">
