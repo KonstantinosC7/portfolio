@@ -70,8 +70,7 @@ nav_active: thesis
   <p class="p-tech"><strong>Tech:</strong> Python, C++, ROS, Gazebo, VLP-16</p>
 </section>
 
-
-<!-- Video --> 
+ 
 <!-- Video -->
 <section class="section">
   <h2>Demo Video</h2>
@@ -92,10 +91,10 @@ nav_active: thesis
       </video>
     </div>
     <figcaption class="muted">
-      Robot navigating among pedestrians (0°, no obstacles).
+      Lab Experiment.
     </figcaption>
     <div class="p-actions" style="margin-top:8px">
-      <a class="btn small" href="{{ '/assets/img/Diploma0deg_no_obs.mov' | relative_url }}" download>Download MP4</a>
+      <a class="btn small" href="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}" download>Download MP4</a>
     </div>
   </figure>
 </section>
