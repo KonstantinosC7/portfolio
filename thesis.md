@@ -70,8 +70,10 @@ nav_active: thesis
   <p class="p-tech"><strong>Tech:</strong> Python, C++, ROS, Gazebo, VLP-16</p>
 </section>
 
+
+<!-- Video --> 
 <section class="section">
-  <h2>Demo</h2>
+  <h2>Video</h2>
   <div class="video-wrap">
       <video controls width="720" poster="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}">
         <source src="{{ 'assets/img/Diploma/0deg_no_obs.mov' | relative_url }}" type="video/mp4">
