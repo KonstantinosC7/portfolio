@@ -72,14 +72,35 @@ nav_active: thesis
 
 
 <!-- Video --> 
+<!-- Video -->
 <section class="section">
-  <h2>Video</h2>
-  <div class="video-wrap">
-      <video controls width="720" poster="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}">
-        <source src="{{ 'assets/img/Diploma/0deg_no_obs.mov' | relative_url }}" type="video/mp4">
+  <h2>Demo Video</h2>
+
+  <figure class="video-card">
+    <div class="video-frame">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+        poster="{{ '/assets/img/Diploma/0deg_no_obs_poster.jpg' | relative_url }}">
+        <!-- Best compatibility first -->
+        <source src="{{ '/assets/img/Diploma0deg_no_obs.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/assets/img/Diploma0deg_no_obs.webm' | relative_url }}" type="video/webm">
+        <!-- Keep MOV only as a last fallback -->
+        <source src="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}" type="video/quicktime">
+        Sorry—your browser can’t play this video. 
+        <a href="{{ '/assets/img/Diploma0deg_no_obs.mp4' | relative_url }}">Download the MP4</a>.
       </video>
-  </div>
+    </div>
+    <figcaption class="muted">
+      Robot navigating among pedestrians (0°, no obstacles).
+    </figcaption>
+    <div class="p-actions" style="margin-top:8px">
+      <a class="btn small" href="{{ '/assets/img/Diploma0deg_no_obs.mov' | relative_url }}" download>Download MP4</a>
+    </div>
+  </figure>
 </section>
+
 
 
 <!-- Gallery --> 
