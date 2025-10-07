@@ -70,8 +70,7 @@ nav_active: thesis
 <section class="section">
   <h2>Demo</h2>
   <div class="video-wrap">
-
-      <video controls width="720" poster="{{ '/assets/img/Diploma/poster.png' | relative_url }}">
+      <video controls width="720" poster="{{ '/assets/img/Diploma/0deg_no_obs.mov' | relative_url }}">
         <source src="{{ '/assets/video/thesis_demo.mp4' | relative_url }}" type="video/mp4">
       </video>
   </div>
