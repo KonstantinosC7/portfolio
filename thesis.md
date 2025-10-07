@@ -14,9 +14,9 @@ nav_active: thesis
     <p class="muted">Clearpath Jackal • ROS Noetic • LiDAR Perception • Social-Force-Aware Navigation</p>
 
     <div class="thesis-actions">
-      <a class="btn primary" href="{{ '/assets/reports/Robot_Navigation_Report.pdf' | relative_url }}" target="_blank">Download Report (PDF)</a>
+      <a class="btn primary" href="{{ 'assets/reports/Diploma_Thesis_Robotics.pdf' | relative_url }}" target="_blank">Download Report (PDF)</a>
       <a class="btn" href="https://github.com/YOUR_GITHUB/robot-navigation" target="_blank">Repository</a>
-      <a class="btn ghost" href="{{ '/assets/slides/Thesis_Slides.pdf' | relative_url }}" target="_blank">Slides</a>
+      <a class="btn ghost" href="{{ '/assets/reports/Robot_Navigation_Presentation.pdf' | relative_url }}" target="_blank">Slides</a>
     </div>
   </div>
 
