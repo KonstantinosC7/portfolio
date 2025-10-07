@@ -85,8 +85,8 @@ nav_active: thesis
       <figcaption>Lab setup — Jackal with VLP-16 LiDAR.</figcaption>
     </figure>
     <figure class="figure">
-      <img src="{{ '/assets/img/Diploma/sim_world.png' | relative_url }}" alt="Simulation world">
-      <figcaption>Gazebo world with dynamic pedestrians.</figcaption>
+      <img src="{{ '/assets/img/Diploma/jackal_sim.jpg' | relative_url }}" alt="Simulation world">
+      <figcaption>Jackal in Simulation Gazebo</figcaption>
     </figure>
     <figure class="figure">
       <img src="{{ '/assets/img/Diploma/forces_in_map.png' | relative_url }}" alt="Trajectories">
