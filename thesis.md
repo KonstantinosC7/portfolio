@@ -81,7 +81,7 @@ nav_active: thesis
         controls
         preload="metadata"
         playsinline
-        poster="{{ '/assets/img/Diploma/0deg_no_obs_poster.jpg' | relative_url }}">
+        poster="{{ '/assets/img/Diploma/0deg_no_obs_poster.png' | relative_url }}">
         <!-- Best compatibility first -->
         <source src="{{ '/assets/img/Diploma/0deg_no_obs.mp4' | relative_url }}" type="video/mp4">
         <!-- Keep MOV only as a last fallback -->
