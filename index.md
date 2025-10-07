@@ -20,17 +20,7 @@ nav_active: home
       <p class="role">Computer Science & Engineering</p>
 
       <div class="icon-row">
-        <a href="mailto:christopoulosk218@gmail.com" title="Email">✉️
-        <a href="mailto:christopoulosk218@gmail.com" title="Email" class="gmail">
-    <!-- Gmail-style envelope (inline SVG) -->
-  <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
-    <!-- Red envelope background -->
-    <path fill="#EA4335" d="M3 6.75C3 5.78 3.78 5 4.75 5h14.5C20.22 5 21 5.78 21 6.75v10.5A1.75 1.75 0 0 1 19.25 19H4.75A1.75 1.75 0 0 1 3 17.25V6.75z"/>
-    <!-- White 'M' -->
-    <path fill="#FFFFFF" d="M19 8.5v8h-2v-6.2l-5 3.7-5-3.7V16.5H5v-8l7 5.2 7-5.2z"/>
-  </svg>
-</a>
-</a>
+        <a href="mailto:christopoulosk218@gmail.com" title="Email">📧</a>
         <a href="https://github.com/KonstantinosC7" target="_blank" title="GitHub">🐙</a>
         <a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank" title="LinkedIn">in</a>
       </div>
