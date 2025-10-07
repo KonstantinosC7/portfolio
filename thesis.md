@@ -91,7 +91,7 @@ nav_active: thesis
       <figcaption>Lab setup — Jackal with VLP-16 LiDAR.</figcaption>
     </figure>
     <figure class="g-item">
-      <img src="{{ /assets/img/Diploma/jackal_sim.jpg' | relative_url }}" alt="Jackal in Simulation Gazebo" data-caption="Jackal in Simulation Gazebo">
+      <img src="{{ '/assets/img/Diploma/jackal_sim.jpg' | relative_url }}" alt="Jackal in Simulation Gazebo" data-caption="Jackal in Simulation Gazebo">
       <figcaption>Jackal in Simulation Gazebo</figcaption>
     </figure>
     <figure class="g-item">
