@@ -12,7 +12,7 @@ nav_active: projects
   <h1>Projects</h1>
 
   <div class="project-list">
-    <!-- TrainUp -->
+<!-- TrainUp -->
     <article class="p-card">
       <img class="p-thumb" src="{{ '/assets/img/TrainUp/TrainUp.jpg' | relative_url }}" alt="TrainUp">
       <div class="p-body">
@@ -31,7 +31,7 @@ nav_active: projects
 
 <!-- Diploma Projects Management App (Spring Boot) -->
 <article class="p-card">
-  <img class="p-thumb" src="{{ '/assets/img/DiplomaApp/cover.png' | relative_url }}" alt="Diploma Projects Management App">
+  <img class="p-thumb" src="{{ '/assets/img/ThesisLink/ThesisLink.png' | relative_url }}" alt="Diploma Projects Management App">
   <div class="p-body">
     <h3>Diploma Projects Management</h3>
     <ul class="p-bullets">
