@@ -40,7 +40,7 @@ nav_active: projects
     </ul>
     <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
     <div class="p-actions">
-      <a class="btn small" href="https://github.com/KonstantinosC7/DiplomaProjectsManagement" target="_blank">Repo</a>
+      <a class="btn small" href="https://github.com/KonstantinosC7/ThesisLink" target="_blank">Repo</a>
       <a class="btn small ghost" href="{{ '/assets/reports/SprintReport_v1.pdf' | relative_url }}" target="_blank">Sprint Report (PDF)</a>
     </div>
   </div>
