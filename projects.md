@@ -28,7 +28,27 @@ nav_active: projects
         </div>
       </div>
     </article>
-    <!-- Information Retrieval (Songs Search) -->
+
+<!-- Diploma Projects Management App (Spring Boot) -->
+<article class="p-card">
+  <img class="p-thumb" src="{{ '/assets/img/DiplomaApp/cover.png' | relative_url }}" alt="Diploma Projects Management App">
+  <div class="p-body">
+    <h3>Diploma Projects Management</h3>
+    <ul class="p-bullets">
+      <li>Web app where <strong>students</strong> browse available thesis subjects, apply, and track their applications & assigned thesis.</li>
+      <li><strong>Professors</strong> manage subjects, review applications, assign theses via strategies (best average grade, fewest courses, random, threshold), and set grades.</li>
+      <li>Auth (login/register) with role-based views; CRUD for profiles, subjects, applications, theses; UML-driven layered design (DAO/Service/Controller).</li>
+    </ul>
+    <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
+    <div class="p-actions">
+      <a class="btn small" href="https://github.com/KonstantinosC7/DiplomaProjectsManagement" target="_blank">Repo</a>
+      <a class="btn small ghost" href="{{ '/assets/reports/SprintReport_v1.pdf' | relative_url }}" target="_blank">Sprint Report (PDF)</a>
+    </div>
+  </div>
+</article>
+
+    
+<!-- Information Retrieval (Songs Search) -->
   <article class="p-card">
     <img class="p-thumb" src="{{ '/assets/img/Informationretrieval/Information-Retrieval.jpg' | relative_url }}" alt="Information Retrieval UI (songs search)">
     <div class="p-body">
