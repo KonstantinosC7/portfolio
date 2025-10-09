@@ -33,8 +33,8 @@ nav_active: projects
 <article class="p-card">
   <img class="p-thumb" src="{{ '/assets/img/ThesisLink/ThesisLink.png' | relative_url }}" alt="Diploma Projects Management App">
   <div class="p-body">
-    The goal of this project is to develop a web application that allows students to browse available thesis topics from various professors and apply for the thesis topics that interest them. The application also allows professors to assign thesis topics to students, supervise the thesis work assigned to them, and evaluate the results.
     <h3>Diploma Projects Management</h3>
+    The goal of this project is to develop a web application that allows students to browse available thesis topics from various professors and apply for the thesis topics that interest them. The application also allows professors to assign thesis topics to students, supervise the thesis work assigned to them, and evaluate the results.
     <ul class="p-bullets">
       <li>Auth (login/register) with role-based views; CRUD for profiles, subjects, applications, theses; UML-driven layered design (DAO/Service/Controller).</li>
     </ul>
