@@ -16,8 +16,8 @@ nav_active: projects
     <article class="p-card">
       <img class="p-thumb" src="{{ '/assets/img/TrainUp/TrainUp.jpg' | relative_url }}" alt="TrainUp">
       <div class="p-body">
-      The aim of this project is to create an application that will help the University's Internship Committee monitor and manage both available and already assigned internship positions.   The application will mainly involve students, companies advertising positions, professors acting as supervisors, and the Committee overseeing the entire process.
         <h3>TrainUp — Traineeship Matching</h3>
+      The aim of this project is to create an application that will help the University's Internship Committee monitor and manage both available and already assigned internship positions.   The application will mainly involve students, companies advertising positions, professors acting as supervisors, and the Committee overseeing the entire process.
         <ul class="p-bullets">
           <li>Committee workflow: roles, matching flow, notifications.</li>
           <li>Track available & assigned internship positions.</li>
