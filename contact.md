@@ -28,7 +28,7 @@ nav_active: contact
     </tr>
     <tr>
       <th>LinkedIn</th>
-      <td><a href="https://www.linkedin.com/in/konstantinos-christopoulos" target="_blank">linkedin.com/in/konstantinos-christopoulos</a></td>
+      <td><a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">linkedin.com/in/konstantinos-christopoulos</a></td>
     </tr>
     <tr>
       <th>GitHub</th>
