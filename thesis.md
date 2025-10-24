@@ -49,12 +49,7 @@ nav_active: thesis
   tracking, dynamic obstacle detection, and potential field navigation</strong> to ensure safe and efficient
   robot movement in human spaces. We implement on the Jackal robot, integrating advanced
   hardware components such as the <strong>Velodyne VLP-16 LiDAR</strong> to collect rich 3D point cloud
-  data. The avoidance methodology employs multi-step filtering to distinguish static and dynamic
-  obstacles, <strong>dynamic point clustering via DBSCAN, and Kalman filters</strong> for robust pedestrian
-  tracking and prediction pedestrian trajectories. As far as the pedestrian movement, we use the
-  <strong>Social Force Model (SFM)</strong>, combining attractive and repulsive forces. A <strong>potential field</strong> approach,
-  guides the robot toward a safe destination, while maintaining real-time adaptability to changing
-  conditions.
+  data.
   </p>
 </section>
 
