@@ -25,6 +25,7 @@ nav_active: projects
         <p class="p-tech">Spring Boot, Thymeleaf, MySQL, HTML/CSS/Bootstrap</p>
         <div class="p-actions">
           <a class="btn small" href="https://github.com/KonstantinosC7/TrainUp" target="_blank">Repo</a>
+          <a class="btn small ghost" href="https://github.com/KonstantinosC7/TrainUp/blob/main/reports" target="_blank">Report (PDF)</a>
         </div>
       </div>
     </article>
