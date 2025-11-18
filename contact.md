@@ -23,10 +23,6 @@ nav_active: contact
       <td>📍 Athens, Greece</td>
     </tr>
     <tr>
-      <th>CV</th>
-      <td><a href="{{ '/assets/Konstantinos_Christopoulos_CV.pdf' | relative_url }}" target="_blank">Download my CV (PDF)</a></td>
-    </tr>
-    <tr>
       <th>LinkedIn</th>
       <td><a href="https://www.linkedin.com/in/konstantinos-christopoulos-9365b3256" target="_blank">linkedin.com/in/konstantinos-christopoulos</a></td>
     </tr>
