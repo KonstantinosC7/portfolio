@@ -24,7 +24,7 @@ nav_active: contact
     </tr>
     <tr>
       <th>CV</th>
-      <td><a href="{{ '/assets/CV_Konstantinos_Christopoulos.pdf' | relative_url }}" target="_blank">Download my CV (PDF)</a></td>
+      <td><a href="{{ '/assets/Konstantinos_Christopoulos_CV.pdf' | relative_url }}" target="_blank">Download my CV (PDF)</a></td>
     </tr>
     <tr>
       <th>LinkedIn</th>
