@@ -15,7 +15,7 @@ nav_active: home
 
     <!-- Left profile card -->
     <aside class="profile-card">
-      <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar lg">
+      <img src="{{ 'assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar lg">
       <h3 class="name">Konstantinos Christopoulos</h3>
       <p class="role">Computer Science & Engineering</p>
 
