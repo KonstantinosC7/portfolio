@@ -34,7 +34,7 @@ nav_active: home
         intelligent robot navigation in dynamic pedestrian scenarios, combining LiDAR perception with
         decision-making algorithms. I also build full-stack apps using Spring Boot.
       </p>
-      <a class="btn primary" href="{{ '/assets/Konstantinos_Christopoulos_CV.pdf' | relative_url }}" target="_blank">Download CV</a>
+      <a class="btn primary" href="{{ 'assets/Konstantinos_Christopoulos_CV.pdf' | relative_url }}" target="_blank">Download CV</a>
 
       <div class="cols">
         <section>
