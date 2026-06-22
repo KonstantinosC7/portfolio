@@ -47,6 +47,22 @@ nav_active: projects
   </div>
 </article>
 
+<!-- SpecFlow (Spring Boot) -->
+<article class="p-card">
+  <img class="p-thumb" src="{{ '/assets/img/SpecFlow/logo.png' | relative_url }}" alt="SpecFlow">
+  <div class="p-body">
+    <h3>SpecFlow</h3>
+    This project develops a web-based Requirements Specification and Analysis application that supports collaborative software requirements definition and object-oriented analysis. Users can create structured Use Cases, generate CRC cards, link requirements to system components, and automatically export diagram scripts for tools such as PlantUML and Nomnoml. The platform bridges requirements gathering and software design in a secure and user-friendly environment. 
+    <ul class="p-bullets">
+      <li>Auth (login/register) with role-based views; CRUD for profiles, Projects, Use Caes, CRC Cards; UML-driven layered design (DAO/Service/Controller); Script for generating Diagrams</li>
+    </ul>
+    <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
+    <div class="p-actions">
+      <a class="btn small" href="https://github.com/KonstantinosC7/SpecFlow" target="_blank">Repo</a>
+      <a class="btn small ghost" href="{{ '/assets/reports/SprintReport_v1_SpecFlow.pdf' | relative_url }}" target="_blank">Sprint Report (PDF)</a>
+    </div>
+  </div>
+</article>
     
 <!-- Information Retrieval (Songs Search) -->
   <article class="p-card">
@@ -66,8 +82,6 @@ nav_active: projects
     </div>
   </div>
 </article>
-
-      
 
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
