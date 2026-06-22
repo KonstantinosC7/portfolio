@@ -37,7 +37,9 @@ nav_active: projects
     <h3>Diploma Projects Management</h3>
     The goal of this project is to develop a web application that allows students to browse available thesis topics from various professors and apply for the thesis topics that interest them. The application also allows professors to assign thesis topics to students, supervise the thesis work assigned to them, and evaluate the results.
     <ul class="p-bullets">
-      <li>Auth (login/register) with role-based views; CRUD for profiles, subjects, applications, theses; UML-driven layered design (DAO/Service/Controller).</li>
+      <li>Auth (login/register) with role-based views. </li> 
+      <li>CRUD for profiles, subjects, applications, theses. </li>
+      <li>UML-driven layered design (DAO/Service/Controller). </li>
     </ul>
     <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
     <div class="p-actions">
@@ -51,10 +53,12 @@ nav_active: projects
 <article class="p-card">
   <img class="p-thumb" src="{{ '/assets/img/SpecFlow/logo.png' | relative_url }}" alt="SpecFlow">
   <div class="p-body">
-    <h3>SpecFlow</h3>
+    <h3>SpecFlow - Requirements Specification & Analysis Application</h3>
     This project develops a web-based Requirements Specification and Analysis application that supports collaborative software requirements definition and object-oriented analysis. Users can create structured Use Cases, generate CRC cards, link requirements to system components, and automatically export diagram scripts for tools such as PlantUML and Nomnoml. The platform bridges requirements gathering and software design in a secure and user-friendly environment. 
     <ul class="p-bullets">
-      <li>Auth (login/register) with role-based views; CRUD for profiles, Projects, Use Caes, CRC Cards; UML-driven layered design (DAO/Service/Controller); Script for generating Diagrams</li>
+      <li>Auth (login/register) with role-based views.</li>  
+      <li>CRUD for profiles, Projects, Use Caes, CRC Cards.</li> <li>UML-driven layered design (DAO/Service/Controller)</li> 
+      <li>Script for generating Diagrams.</li>
     </ul>
     <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
     <div class="p-actions">
