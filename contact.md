@@ -20,7 +20,7 @@ nav_active: contact
     </tr>
     <tr>
       <th>Location</th>
-      <td>📍 Athens, Greece</td>
+      <td>📍 Patras, Greece</td>
     </tr>
     <tr>
       <th>LinkedIn</th>
