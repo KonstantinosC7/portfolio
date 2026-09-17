@@ -17,7 +17,7 @@ nav_active: home
     <aside class="profile-card">
       <img src="{{ 'assets/img/profile.jpg' | relative_url }}" alt="Profile photo" class="avatar lg">
       <h3 class="name">Konstantinos Christopoulos</h3>
-      <p class="role">Computer Science & Engineering</p>
+      <p class="role">Software Engineer | Integrated Master in Computer Science & Engineering</p>
 
       <div class="icon-row">
         <a href="mailto:christopoulosk218@gmail.com" title="Email">📧</a>
