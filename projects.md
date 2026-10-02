@@ -87,6 +87,25 @@ nav_active: projects
   </div>
 </article>
 
+<!-- MLP Classifier (Java) -->
+<article class="p-card">
+  <img class="p-thumb" src="{{ '/assets/img/MLP/best_generalization.png' | relative_url }}" alt="MLP Classifier — test set classification">
+  <div class="p-body">
+    <h3>MLP Classifier — Neural Network from Scratch</h3>
+    A Multi-Layer Perceptron with three hidden layers, implemented from scratch in Java (no ML libraries) to classify points in a 2D plane into three categories with non-linear decision boundaries. The network is trained with mini-batch gradient descent and backpropagation, and its generalization is studied across hidden-layer sizes, activation functions and batch sizes.
+    <ul class="p-bullets">
+      <li>Configurable architecture (H1/H2/H3), activations (logistic, tanh, ReLU) and batch size.</li>
+      <li>Softmax output layer with one-hot targets; stopping rule on error change after at least 700 epochs.</li>
+      <li>Best result: <strong>92.4% test accuracy</strong> (28-28-30 neurons, tanh, B=40).</li>
+    </ul>
+    <p class="p-tech">Java, Backpropagation, Gradient Descent, Softmax, Python (matplotlib)</p>
+    <div class="p-actions">
+      <a class="btn small" href="https://github.com/KonstantinosC7/mlp-classifier-java" target="_blank">Repo</a>
+      <a class="btn small ghost" href="https://github.com/KonstantinosC7/mlp-classifier-java/blob/main/docs/MLP_report.pdf" target="_blank">Report (PDF)</a>
+    </div>
+  </div>
+</article>
+
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
 </footer>
