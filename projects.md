@@ -57,7 +57,7 @@ nav_active: projects
     This project develops a web-based Requirements Specification and Analysis application that supports collaborative software requirements definition and object-oriented analysis. Users can create structured Use Cases, generate CRC cards, link requirements to system components, and automatically export diagram scripts for tools such as PlantUML and Nomnoml. The platform bridges requirements gathering and software design in a secure and user-friendly environment. 
     <ul class="p-bullets">
       <li>Auth (login/register) with role-based views.</li>  
-      <li>CRUD for profiles, Projects, Use Caes, CRC Cards.</li> <li>UML-driven layered design (DAO/Service/Controller)</li> 
+      <li>CRUD for profiles, Projects, Use Cases, CRC Cards.</li> <li>UML-driven layered design (DAO/Service/Controller)</li> 
       <li>Script for generating Diagrams.</li>
     </ul>
     <p class="p-tech">Spring Boot (MVC + Security), Thymeleaf, MySQL, JPA, UML, Maven</p>
@@ -89,7 +89,7 @@ nav_active: projects
 
 <!-- MLP Classifier (Java) -->
 <article class="p-card">
-  <img class="p-thumb" src="{{ '/assets/img/MLP/best_generalization.png' | relative_url }}" alt="MLP Classifier — test set classification">
+  <img class="p-thumb" src="{{ '/assets/img/MLP/MLP_Screenshot.png' | relative_url }}" alt="MLP Classifier — test set classification">
   <div class="p-body">
     <h3>MLP Classifier — Neural Network from Scratch</h3>
     A Multi-Layer Perceptron with three hidden layers, implemented from scratch in Java (no ML libraries) to classify points in a 2D plane into three categories with non-linear decision boundaries. The network is trained with mini-batch gradient descent and backpropagation, and its generalization is studied across hidden-layer sizes, activation functions and batch sizes.
