@@ -127,7 +127,7 @@ nav_active: projects
 
 <!-- Finding Similar Documents with MinHash and LSH -->
 <article class="p-card">
-  <img class="p-thumb" src="{{ '/assets/img/MinHashLSH/MinHashLSH.png' | relative_url }}" alt="MinHash and LSH">
+  <img class="p-thumb" src="{{ '/assets/img/AlgorithmsForBigData/Algorithms_Big_Data.png' | relative_url }}" alt="MinHash and LSH">
   <div class="p-body">
     <h3>MinHash & LSH — Similar Document Search</h3>
     A Big Data project that implements and compares different approaches for finding the most similar documents in large collections. Documents are represented as sets of words, with Jaccard similarity used as the ground truth and MinHash signatures used to efficiently estimate similarity. Locality Sensitive Hashing (LSH) is then used to reduce the number of document comparisons and improve search efficiency.
