@@ -106,6 +106,25 @@ nav_active: projects
   </div>
 </article>
 
+<!-- Monster Type Recognition (Classifier Comparison) -->
+<article class="p-card">
+  <img class="p-thumb" src="{{ '/assets/img/MonsterClassification/kaggle_accuracy.png' | relative_url }}" alt="Monster Type Recognition — Kaggle accuracy by classifier">
+  <div class="p-body">
+    <h3>Monster Type Recognition — Classifier Comparison</h3>
+    A comparative study of four classic machine-learning classifiers on the Kaggle dataset "Ghouls, Goblins, and Ghosts... Boo!", where the goal is to recognise a monster's type (Ghoul, Goblin or Ghost) from five features. Every model is evaluated with accuracy, F1, precision and recall, and its predictions are scored on Kaggle.
+    <ul class="p-bullets">
+      <li>k-NN (k = 1, 3, 5, 10), neural networks (1–2 sigmoid hidden layers, softmax output, SGD) and linear/RBF SVMs with one-versus-rest.</li>
+      <li>Naive Bayes written from scratch: normal distribution for the continuous features, multinomial for the color.</li>
+      <li>Best result: <strong>0.73156 Kaggle accuracy</strong> (linear SVM, C=10).</li>
+    </ul>
+    <p class="p-tech">Python, scikit-learn, TensorFlow/Keras, pandas, NumPy</p>
+    <div class="p-actions">
+      <a class="btn small" href="https://github.com/KonstantinosC7/Monster-Classifiers" target="_blank">Repo</a>
+      <a class="btn small ghost" href="https://github.com/KonstantinosC7/Monster-Classifiers/blob/main/docs/report.pdf" target="_blank">Report (PDF)</a>
+    </div>
+  </div>
+</article>
+
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
 </footer>
