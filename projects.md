@@ -125,6 +125,26 @@ nav_active: projects
   </div>
 </article>
 
+<!-- Finding Similar Documents with MinHash and LSH -->
+<article class="p-card">
+  <img class="p-thumb" src="{{ '/assets/img/MinHashLSH/MinHashLSH.png' | relative_url }}" alt="MinHash and LSH">
+  <div class="p-body">
+    <h3>MinHash & LSH — Similar Document Search</h3>
+    A Big Data project that implements and compares different approaches for finding the most similar documents in large collections. Documents are represented as sets of words, with Jaccard similarity used as the ground truth and MinHash signatures used to efficiently estimate similarity. Locality Sensitive Hashing (LSH) is then used to reduce the number of document comparisons and improve search efficiency.
+    <ul class="p-bullets">
+      <li>Implemented brute-force Jaccard and MinHash similarity for nearest-neighbor search.</li>
+      <li>Built MinHash signature matrices using randomized hash functions and an inverted index.</li>
+      <li>Implemented LSH banding to generate candidate document pairs and reduce comparisons.</li>
+      <li>Compared methods using execution time and average similarity on Enron emails and NIPS papers.</li>
+    </ul>
+    <p class="p-tech">Python, MinHash, Locality Sensitive Hashing (LSH), Jaccard Similarity, Big Data Algorithms</p>
+    <div class="p-actions">
+      <a class="btn small" href="https://github.com/KonstantinosC7/Algorithms_for_Large-Scale_Data" target="_blank">Repo</a>
+    </div>
+  </div>
+</article>
+
+
 <footer class="footer">
   <span>© {{ site.time | date: '%Y' }} Konstantinos Christopoulos</span>
 </footer>
